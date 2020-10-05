@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: auto;
   cursor: none;
-  overflow: hidden;
+
 }
 
 .cursor {
@@ -82,9 +82,9 @@ body {
   font-size: 13px;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+
   cursor:none;
-  height: 100vh;
+  height: 100%;
 
 }
 
@@ -143,7 +143,7 @@ form {
       margin-right: 20px; }
 
 .form-wrapper {
-  margin-bottom: 17px; }
+  margin-bottom: 10px; }
   .form-wrapper label {
     margin-bottom: 9px;
     display: block; }
@@ -268,5 +268,9 @@ button {
     padding-right: 15px;
     padding-left: 15px; } }
 
-
+footer{
+  text-align: center;
+  background-color: rgb(165, 32, 32);
+  color: whitesmoke;
+}
 /*# sourceMappingURL=style.css.map */
